@@ -1,0 +1,19 @@
+# --- Data: large and withheld so the project cannot be trivially reproduced ---
+*.parquet
+*.zip
+*.zip.zip
+*.csv
+data/
+
+# --- Source code: intentionally withheld (showcase results, not runnable implementation) ---
+src/
+requirements.txt
+__pycache__/
+*.pyc
+
+# --- Raw result dumps (keep the curated .md reports instead) ---
+reports/*.json
+
+# --- misc ---
+.DS_Store
+.ipynb_checkpoints/
